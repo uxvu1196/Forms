@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <form>
+    <fieldset>
+      <legend>Register form</legend>
+      <table>
+        <tr>
+          <td>Name</td>
+          <td><input type="text" name="name" placeholder="Name" id="name"></td>
+        </tr>
+        <tr>
+          <td>Surname</td>
+          <td><input type="text" name="surname" placeholder="Surname" placeholder="Surname" id="surname"></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><input type="email" name="email" placeholder="Email" id="email"></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td><input type="radio" name="male" id="male">Male</td>
+          <td><input type="radio" name="female" id="female">Female</td>
+        </tr>
+        <tr>
+          <td>Country</td>
+          <td>
+            <select name="country" id="country">
+                <option value="germany">Germany</option>
+                <option value="spain">Spain</option>
+                <option value="france">France</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Preffered Language</td>
+          <td>
+            <select multiple="multiple">  -> Für mehrere elemente
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JS</option>
+            </select>
+            <p>(To choose more than one use cmd key)</p>
+        </td>
+        </tr>
+        <tr>
+          <td>Field of activity</td>
+          <td><input type="checkbox" name="it" id="it">IT</td>
+          <td><input type="checkbox" name="design" id="design">Design</td>
+          <td><input type="checkbox" name="other" id="other">Other</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+        </tr>
+      </table>
+    </fieldset>
+  </form>
+
+
+</body>
+</html>

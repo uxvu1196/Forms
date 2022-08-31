@@ -1,0 +1,92 @@
+/*****************************************************************************
+    Remove margin and padding for all elements
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*****************************************************************************
+    Set default font-family and size
+*/
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+/*****************************************************************************
+    Setup some styles for the form
+*/
+form {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #4691a0;
+}
+
+/*****************************************************************************
+
+    Input area: labels and text fields
+*/
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+/* for required fields */
+.required::after {
+    color: red;
+    content: " *";
+}
+#fname,
+#lname {
+    display: inline-block;
+    width: 47.1%;
+}
+input,
+textarea {
+    display: block;
+    width: 98%;
+    font-size: 0.6em;
+    border: 2px solid silver;
+    padding: 5px;
+}
+select {
+    display: block;
+    width: 100%;
+    background: whitesmoke;
+    font-size: 0.8em;
+    border: 2px solid silver;
+    padding: 5px;
+}
+textarea {
+    height: 100px;
+}
+/* special effects for focussed elements */
+input:focus,
+select:focus,
+textarea:focus {
+    /* border for the select and outline fpr the input and textarea */
+    border-color: #4691a0;
+    outline-color: #4691a0;
+}
+
+/*****************************************************************************
+    Submit button
+*/
+#submit {
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1em;
+    margin: 40px auto 20px;
+    padding: 20px 0;
+    border-style: none;
+    background: #4691a0;
+    color: white;
+}
+#submit:hover {
+    background: black;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/lev1_1.css">
+</head>
+<body>
+    <form>
+        <!-- Name area -->
+            <label for="name" class="required">Name</label>
+            <input type="text" name="vorname" id="fname" placeholder="Vorname" required>
+            <input type="text" name="nachname" id="lname" placeholder="Nachname" required>
+        <!-- Email area -->
+            <label for="email" class="required">Email</label>
+            <input type="email" name="email" placeholder="Email" required>
+        <!-- Topic selection -->
+            <label for="thema">Thema</label>
+            <select name="thema" id="thema">
+                <option value="advertise">Advertise</option>
+                <option value="general">General</option>
+                <option value="partnership">Partnership</option>>
+            </select>
+            <label for="message">Nachricht</label>
+            <textarea id="message" name="w3review"></textarea>
+            <input type="submit" id="submit" value="submit">
+    </form>
+</body>
+</html>
